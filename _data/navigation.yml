@@ -1,0 +1,34 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - # title: "About"
+    # url: /about/
+  - title: "Posts"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  #- title: "Sitemap"
+  #  url: /sitemap/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+posts:
+  - title: Programming
+    children:
+      - title: "Python"
+        url: /categories/#python
+      - title: "C언어"
+        url: /categories/#c언어
+  - title: Web
+    children:
+      - title: "HTML"
+        url: /categories/#html
+      - title: "JavaScript"
+        url: /categories/#javascript
